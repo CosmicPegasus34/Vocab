@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Study Pages Unit 8</title>
+        <style>
+            body {
+                background-color: maroon;
+            }
+            dl {
+
+                display: table;
+                border-collapse: collapse;
+                margin: auto;
+            }
+            dl div {
+                display: table-row;
+            }
+            dt, dd {
+                display: table-cell;
+                border: 1px solid black;
+                vertical-align: top;
+                padding: 5px;
+            }
+            dd {
+                background-color: dodgerblue;
+                color: white;
+                width: 600px;
+            }
+            dt {
+                background-color: rgb(255, 123, 0);
+                width: 200px;
+            }
+            .content-box {
+                column-count: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <dl style="width: 800px;">
+            <div style="font-size: 42px; text-align: center;">
+                <dt class="word">Word</dt>
+                <dd>Definition</dd>
+            </div>
+            <div>
+                <dt>Table</dt>
+                <dd>An HTML Structure that consists of multiple table rows ans 1 or more columns</dd>
+            </div>
+            <div>
+                <dt>Columns</dt>
+                <dd>Coumns are vertically aligned. You can indivually target columns using a class or id</dd>
+            </div>
+            <div>
+                <dt>Column Groups</dt>
+                <dd>Column Groups are 2 or more columns grouped together</dd>
+            </div>
+            <div>
+                <dt>Column-Count</dt>
+                <dd>It makes it to where it wraps content into 2 or more columns. Browser extentions are included to ensure cross-browser compatibility</dd>
+            </div>
+            <div>
+                <dt>Column-Width</dt>
+                <dd>Columns are laid out evenly across the width of the parent element by default. Column Width also acts like the basis value for items in a flexbox.</dd>
+            </div>
+            <div>
+                <dt>Column-Rule</dt>
+                <dd>Another way to separate columns is with a graphic dividing line using Column-Rule</dd>
+            </div>
+            <div>
+                <dt>Rows</dt>
+                <dd>Rows are horizontally aligned</dd>
+            </div>
+            <div>
+                <dt>Row Groups</dt>
+                <dd>Row groups are 2 or more rows grouped together</dd>
+            </div>
+            <div>
+                <dt>Header Cells</dt>
+                <dd>It contains content placed at the top of a column or the beginning of a row. By default, it displays text in bold and centers text horizontally. Is used using the th element</dd>
+            </div>
+            <div>
+                <dt>Data Cells</dt>
+                <dd>Contains content displayed in columns or rows. It is used using the td element</dd>
+            </div>
+            <div>
+                <dt>Collapsed Border Model</dt>
+                <dd>Border from adjacent elements are merged together to form a single border. The border are combines their features</dd>
+            </div>
+            <div>
+                <dt>Separate Border Model</dt>
+                <dd>The border from the adjacent elements are separated from each other table cells to form space in between each cell</dd>
+            </div>
+            <div>
+                <dt>Cell Spanning</dt>
+                <dd>Cells are that merged together into 1 cell. It is used by using the colspan or rowspan attribute</dd>
+            </div>
+            <div>
+                <dt>thead element</dt>
+                <dd>Rows that belong to the header. Only 1 thead element is allowed in a table</dd>
+            </div>
+            <div>
+                <dt>tbody element</dt>
+                <dd>Rows that belong to the body</dd>
+            </div>
+            <div>
+                <dt>tfoot</dt>
+                <dd>Rows that belong to the footer. Only 1 tfoot element is allowed per table</dd>
+            </div>
+            <div>
+                <dt>CSS Vertical-Align Attribute</dt>
+                <dd>This property is used to move a cell vertically (up or down)</dd>
+            </div>
+            <div>
+                <dt>Caption</dt>
+                <dd>The caption element can be used to create a caption for the table</dd>
+            </div>
+            <div>
+                <dt>th Element</dt>
+                <dd>The th element define the table header</dd>
+            </div>
+            <div>
+                <dt>tr Element</dt>
+                <dd>The tr element defines the table rows</dd>
+            </div>
+            <div>
+                <dt>td Element</dt>
+                <dd>The td element dfine sthe table cells</dd>
+            </div>
+            <div>
+                <dt>dd</dt>
+                <dd>This is used to define the defintion of a term in the table</dd>
+            </div>
+            <div>
+                <dt>dt</dt>
+                <dd>This is used to present a term in the table</dd>
+            </div>
+            <div>
+                <dt>dl</dt>
+                <dd>This is used to categorize the dd and dt elements</dd>
+            </div>
+            <div>
+                <dt>Float Elements or Flexboxes</dt>
+                <dd>A single element can flow from one column to the next. The flow of xontent adjusts to match the page width</dd>
+            </div>
+            <div>
+                <dt>Flexbox</dt>
+                <dd>A flexbox offers an alternative to Floats for defining the overall appearance of a web page</dd>
+            </div>
+            <div>
+                <dt>Visual Viewport for Tables</dt>
+                <dd>This does not apply to tables because if you tried to the table would be too small to read, or it doesnt fit on the screen</dd>
+            </div>
+            <div>
+                <dt>Data-Text</dt>
+                <dd>It stores data label using a data attribute. Text is the name of the data attribute and value is its value</dd>
+            </div>
+            <div>
+                <dt>Data-Label</dt>
+                <dd>Used to store text of the labels associated with the data cell</dd>
+            </div>
+            <div>
+                <dt>Block Elements</dt>
+                <dd>This is the result of list data cells. Within each block element, the data label is followed by the data cell content</dd>
+            </div>
+            <div>
+                <dt>Two-Column Layout</dt>
+                <dd>A column layout that enables display content side-by-side in a page. This layout differs from float elements layouts</dd>
+            </div>
+            <div>
+                <dt>Float Elements or Flexboxes</dt>
+                <dd>A single element can flow from one column to the next. The flowof content adjusts to match the page width</dd>
+            </div>
+            <div>
+                <dt>Orphans</dt>
+                <dd></dd>
+            </div>
+        </dl>
+        <br>
+        <dl style="width: 800px;">
+            <div style="font-size: 42px; text-align: center;">
+                <dt>Element</dt>
+                <dd>How to Use</dd>
+            </div>
+            <div>
+                <dt>Data-label</dt>
+                <dd><p>'td data-label="Date">April 2, 2017</td'</p></dd>
+            </div>
+            <div>
+                <dt>Data-Text</dt>
+                <dd>'td data-text="Value">Hi /td</dd>
+            </div>
+            <div>
+                <dt>Data Cell</dt>
+                <dd>td>Minecraft</td'</dd>
+            </div>
+            <div>
+                <dt>Web Tables</dt>
+                <dd>table><br>
+                tr</tr<br>
+                /table></dd>
+            </div>
+            <div>
+                <dt>Border Collapse</dt>
+                <dd>tr border-collapse: collapse> 1 /tr</dd>
+            </div>
+            <div>
+                <dt>Border Separate</dt>
+                <dd>tr border-collapse: separate> 1 /tr</dd>
+            </div>
+            <div>
+                <dt>Border-Spacing</dt>
+                <dd>tr border-spacing: "4";> Hi /tr</tr</dd>
+            </div>
+            <div>
+                <dt>ColSpan</dt>
+                <dd>tr colspan="3"> Super Monkey /tr</tr</dd>
+            </div>
+            <div>
+                <dt>RowSpan</dt>
+                <dd>tr rowspan="3"> Super Monkey /tr</dd>
+            </div>
+            <div>
+                <dt>Column-Rule</dt>
+                <dd>column-rule: border;</dd>
+            </div>
+            <div>
+                <dt>Column-Width</dt>
+                <dd>column-width: size;</dd>
+            </div>
+            <div>
+                <dt>Column-Count</dt>
+                <dd>column-count: 2;</dd>
+            </div>
+            <div>
+                <dt>Column Group Element</dt>
+                <dd>table<br>
+                    colgroup<br>
+                    hi<br>
+                /colgroup<br>
+                /table</dd>
+            </div>
+            <div>
+                <dt>Caption-Side</dt>
+                <dd>caption-side: top;</dd>
+            </div>
+            <div>
+                <dt>Display for Tables</dt>
+                <dd>display: tables;</dd>
+            </div>
+            <div>
+                <dt>Table Caption</dt>
+                <dd>caption Hello /caption</dd>
+            </div>
+            <div>
+                <dt>thead Element</dt>
+                <dd>thead Table for Accounting /thead</dd>
+            </div>
+            <div>
+                <dt>tbody Element</dt>
+                <dd>tbody $3500 /tbody</dd>
+            </div>
+            <div>
+                <dt>tfoot Element</dt>
+                <dd>tfoot Accounting Table /tfoot</dd>
+            </div>
+            <div>
+                <dt>Table Element with  a Class</dt>
+                <dd>table class="hi">This is an example of a class /table</dd>
+            </div>
+            <div>
+                <dt>Table Element with an ID</dt>
+                <dd>table id="hi">This is an example of a id /table</dd>
+            </div>
+            <div>
+                <dt>Table</dt>
+                <dd>table<br>
+                    tr This is a table cell /tr<br>
+                    tr This is a table cell /tr<br>
+                    /table
+                </dd>
+            </div>
+            <div>
+                <dt>th Element</dt>
+                <dd>th This is a table header /th</dd>
+            </div>
+            <div>
+                <dt>Flexbox</dt>
+                <dd>Display: flex;<br>
+                    div class="flex-container; /div"
+                </dd>
+            </div>
+        </dl>
+    </body>
+</html>
